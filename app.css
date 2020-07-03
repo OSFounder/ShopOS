@@ -7,3 +7,11 @@
     padding 14px 16px;
     background-color: black;
 }
+
+.nav {
+    padding: 14px 16px;
+    background-color: purple;
+    border: none;
+    text-decoration: none;
+    float: left;
+    text-align: center;

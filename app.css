@@ -4,3 +4,10 @@
     border: 0;
     background-color: black;
 }
+.h1 {
+    padding: 14px 16px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: none;
+}

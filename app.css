@@ -30,3 +30,8 @@ li a {
     text-decoration: none;
     background-color: black;
 }
+
+nav {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

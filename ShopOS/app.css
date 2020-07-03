@@ -2,12 +2,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-}
-.h1 { 
-    padding: 14px 16px;
     background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    color: none;
-    text-align: center;
 }
+

@@ -3,15 +3,26 @@
     margin: 0;
     border: 0;
 }
+
 .Title {
     padding 14px 16px;
     background-color: black;
 }
 
 .nav {
-    padding: 14px 16px;
+    overflow: hidden;
     background-color: purple;
-    border: none;
-    text-decoration: none;
+    font-famnily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a {
     float: left;
+    font-size: 16px;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    backround-color: mediumpurple;
+}

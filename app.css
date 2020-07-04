@@ -31,6 +31,9 @@ li a {
     background-color: black;
 }
 
+li a:hover {
+    color: gray;
+
 nav {
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

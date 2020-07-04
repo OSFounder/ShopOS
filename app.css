@@ -38,6 +38,8 @@ nav {
     background-color: black;
 }
 
+    a {
+        font-family: 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;
     .active {
         background-color: mediumpurple;
     }

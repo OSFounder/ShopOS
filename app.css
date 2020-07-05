@@ -50,3 +50,9 @@ nav {
         background-color: purple;
         width: 100px;
     }
+
+    h2 {
+        padding: 14px 16px;
+        border: none;
+        font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
+    }

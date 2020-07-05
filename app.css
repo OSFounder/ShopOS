@@ -51,7 +51,7 @@ nav {
         width: 100px;
     }
 
-    h2 {
+    .h2 {
         padding: 14px 16px;
         border: none;
         float: center;
@@ -59,7 +59,7 @@ nav {
         font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    p {
+    .p {
         padding: 14px 16px;
         border: 2px solid purple;
         border-radius: 25;

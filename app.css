@@ -50,6 +50,3 @@ nav {
         background-color: purple;
         width: 100px;
     }
-    nav a.active {
-        backround-color: purple;
-    }

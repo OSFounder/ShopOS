@@ -54,5 +54,14 @@ nav {
     h2 {
         padding: 14px 16px;
         border: none;
+        float: center;
+        text-align: center;
+        font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        padding: 14px 16px;
+        border: 2px solid purple;
+        border-radius: 25;
         font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
     }

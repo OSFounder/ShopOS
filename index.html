@@ -10,18 +10,25 @@
     <div class="Title">
     <h1 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Shop<span style="color: purple;">OS</span></h1>
     </div>
-    <nav style="font-family: 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;">
+    <nav style="font-family: 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;" id="home">
     <ul>
-        <li><a style="text-decoration: underline; text-decoration-color: purple;" href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
+        <div class="triangle-up">
         <li><a href="stores.html">Stores</a></li>
         <li><a href="list.html">My List</a></li>
         <li><a href="createstore.html">Create a store</a></li>
         <li><a href="manacc.html">Manage accounts</a></li>
-        </ul>
-        <script language="javascript">
-            triangle(1000, 1000, 10000, 10000);
-        </script>
-    </nav>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid purple;
+}
+        </style>
+        </nav>
             <script src="app.js"></script>
     
     

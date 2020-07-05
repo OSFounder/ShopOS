@@ -42,6 +42,11 @@ nav {
         font-family: 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;
     }
         
-    .active {
-        background-color: mediumpurple;
+    .nav animation {
+        position: absolute;
+        height: 0%;
+        top: 0;
+        z-index: 0;
+        background-color: purple;
+        width: 100px;
     }

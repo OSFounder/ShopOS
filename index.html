@@ -21,21 +21,25 @@
         </nav>
             <script src="app.js"></script>
    
-   <div class="intro">
-   <p>All your shopping needs in one place.</p> 
-   </div>
+   <div class="container">
+   <img src="sand.jpg">
+       <div class="intro"><b>All your shopping needs, in one place.</b></div>  
+    </div>
        <style>
-  
-          .intro {
-        float: center;
-        text-align: center;
-        padding: 14px 16px;                     
-        display: block;
-        background-image: url('sand.jpg');
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        height: 3cm;
-        font-size: 0.8cm;
-    }
+          .container {
+              position: relative;
+              width: 100%;
+              height: auto;
+              display: block;
+              text-align: center;
+              color: white;
+           }
+           .intro {
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);   
+           }
     </style>
     
     

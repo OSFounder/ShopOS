@@ -9,40 +9,29 @@
     background-color: black;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
     overflow: hidden;
     background-color: black;
+    position: fixed;
 }
 
-li {
+.navbar a {
     float: left;
-}
-
-li a {
     display: block;
     color: white;
     font-famnily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: black;
 }
 
-li a:hover {
+.navbar a:hover {
     color: gray;
-
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    top:0;
 }
 
-    a {
-        font-family: 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;
-    }
+.main {
+    margin-top: 30px;
+}
         
 
 

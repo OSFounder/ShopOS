@@ -10,7 +10,6 @@
 }
 
 ul {
-    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,9 +34,10 @@ li a {
 li a:hover {
     color: gray;
 
-nav {
-    background-color: black;
+.navbar {
+    overflow: hidden;
     position: fixed;
+    top:0;
 }
 
     a {

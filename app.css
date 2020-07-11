@@ -36,6 +36,7 @@ li a:hover {
 
 nav {
     background-color: black;
+    position: fixed;
 }
 
     a {

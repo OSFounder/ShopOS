@@ -12,14 +12,20 @@
 .navbar {
     overflow: hidden;
     background-color: black;
-    position: fixed;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sticky {
+    postition: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
     float: left;
     display: block;
     color: white;
-    font-famnily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -11,6 +11,7 @@
 
 .navbar {
     overflow: hidden;
+    position: fixed;
     background-color: black;
     color: white;
     width: 100%;
@@ -19,18 +20,31 @@
 
 
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
+nav a {
+    float: right;
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.5s ease 0s;
 }
 
-.navbar a:hover {
+nav a:hover {
     color: gray;
 }
+
+.header {
+    float: left;
+    padding: 14px 16px;
+}
+
+.header {
+    margin-left: 16%;
+}
+
+nav {
+    margin-right: 17%;
+    
 
 .main {
     margin-top: 30px;

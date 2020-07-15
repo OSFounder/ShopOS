@@ -46,6 +46,7 @@ nav {
 
 .main {
     top: -15;
+    position: absolute;
 }
         
 

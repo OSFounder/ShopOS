@@ -53,3 +53,13 @@ nav {
     margin-top: 15px;
     position: absolute;
     }
+    
+    footer {
+        padding: 14px 16px;
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
+        text- align: center;
+        text-decoration: none;
+    }
